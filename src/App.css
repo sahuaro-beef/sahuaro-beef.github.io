@@ -1,0 +1,93 @@
+:root {
+  --font-size: 0.65rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding-top: 2rem;
+}
+
+main {
+  padding: calc(2 * var(--font-size));
+  padding-top: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0.8rem;
+}
+
+h2 {
+  font-family: Italianno;
+  font-size: calc(7 * var(--font-size));
+  margin: 0;
+  color: #e53e3e;
+  font-weight: 200;
+  margin-top: calc(3 * var(--font-size));
+}
+
+.logo {
+  max-width: min(25rem, 80vw);
+  margin: 0 auto;
+}
+
+.note {
+  margin-bottom: calc(1.5 * var(--font-size));
+}
+
+.simple-table-name-price {
+  margin-left: calc(1 * var(--font-size));
+  font-weight: 200;
+  font-size: calc(2 * var(--font-size));
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.simple-table-name-price > div {
+  border-bottom: 3px solid #2d3748;
+  padding-bottom: calc(0.4 * var(--font-size));
+  margin-bottom: calc(1.6 * var(--font-size));
+}
+
+.price {
+  font-weight: 100;
+  font-size: calc(1.6 * var(--font-size));
+  padding-left: calc(1 * var(--font-size));
+}
+
+.details {
+  font-weight: 100;
+  font-size: calc(1.6 * var(--font-size));
+}
+
+.menus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.menus > button {
+  font-size: calc(2 * var(--font-size));
+  background-color: transparent;
+  color: #f7fafc;
+  border: 1px solid #f7fafc;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  font-weight: 200;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  :root {
+    --font-size: 0.8rem;
+  }
+
+  main {
+    padding: calc(6 * var(--font-size));
+  }
+
+  .menus {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
