@@ -2,6 +2,7 @@
   "name": "sahuaro-beef",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sahuaro-beef.github.io",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
     "@types/brainhubeu__react-carousel": "^2.0.0",
