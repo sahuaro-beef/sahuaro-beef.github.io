@@ -52,15 +52,19 @@ const Cortes = () => (
       <div>Picaña sahuaro</div>
       <div className="price">$490</div>
       <div>
-        Chistorra <span className="details">(500 gramos)</span>
+        Chistorra <span className="details">(300 gramos)</span>
       </div>
-      <div className="price">$100</div>
+      <div className="price">$70</div>
       <div>Carne para hamburguesa</div>
-      <div className="price">$230</div>
+      <div className="price">$350</div>
       <div>
         Hamburguesa <span className="details">(200 gramos)</span>
       </div>
       <div className="price">$100</div>
+      <div>
+        Hamburguesa con papa <span className="details">(200 gramos)</span>
+      </div>
+      <div className="price">$130</div>
       <div>
         Tuetano <span className="details">(3 piezas)</span>
       </div>
@@ -196,11 +200,11 @@ const Complementos = () => (
       <div>
         Carbon <span className="details">(1kg)</span>
       </div>
-      <div className="price">$25</div>
+      <div className="price">$30</div>
       <div>
         Carbon <span className="details">(3kgs)</span>
       </div>
-      <div className="price">$60</div>
+      <div className="price">$75</div>
     </section>
 
     <Carousel
@@ -260,13 +264,13 @@ const Bebidas = () => (
       <div>XX</div>
       <div className="price">$35</div>
       <div>Pacífico</div>
-      <div className="price">$35</div>
+      <div className="price">$40</div>
       <div>Indio</div>
       <div className="price">$35</div>
       <div>Victoria</div>
       <div className="price">$35</div>
       <div>Modelo</div>
-      <div className="price">$35</div>
+      <div className="price">$40</div>
     </section>
 
     <h3>Vinos de mesa</h3>
@@ -305,7 +309,7 @@ const Postres = () => (
     <h2 id="Postres">Postres</h2>
     <section className="simple-table-name-price">
       <div>Coyota Individual</div>
-      <div className="price">$25</div>
+      <div className="price">$30</div>
       <div>Coyota con helado</div>
       <div className="price">$50</div>
       <div>Cheese Cake</div>
@@ -317,6 +321,10 @@ const Postres = () => (
       <div>Brownies con helado</div>
       <div className="price">$75</div>
       <div>Helado</div>
+      <div className="price">$50</div>
+      <div>Alfajore</div>
+      <div className="price">$30</div>
+      <div>Alfajore con helado</div>
       <div className="price">$50</div>
     </section>
   </>
@@ -330,8 +338,8 @@ const Paquetes = () => (
       <div>
         <div>Paquete de arrachera</div>
         <div className="details">
-          (Incluye: 1 kg de arrachera, Guarnición familiar, 1 papa sahuaro, chorizo sahuaro o
-          chistorra)
+          Incluye: 1 kg de arrachera, Guarnición familiar, 1 papa sahuaro, chorizo sahuaro o
+          chistorra
         </div>
       </div>
 
@@ -371,6 +379,45 @@ const Paquetes = () => (
       </div>
 
       <div className="price">$550</div>
+
+      <div>
+        <div>Paquete de Cabreria</div>
+        <div className="details">
+          Incluye: 1 kg de cabreria, Guarnición familiar, 1 papa sahuaro, chorizo sahuaro o
+          chistorra
+        </div>
+      </div>
+
+      <div className="price">$780</div>
+
+      <div>
+        <div>Paquete de cowboy</div>
+        <div className="details">
+          Incluye: 1 pieza de cowboy, Guarnición familiar, 1 papa sahuaro, chorizo sahuaro o
+          chistorra
+        </div>
+      </div>
+
+      <div className="price">$850</div>
+
+      <div>
+        <div>Paquete de Vacio</div>
+        <div className="details">
+          Incluye: 1 kg de vacio, Guarnición familiar, 1 papa sahuaro, chorizo sahuaro o chistorra
+        </div>
+      </div>
+
+      <div className="price">$880</div>
+
+      <div>
+        <div>Paquete de costilla sahuaro</div>
+        <div className="details">
+          Incluye: 1 kg de costilla sahuaro, Guarnición familiar, 1 papa sahuaro, chorizo sahuaro o
+          chistorra
+        </div>
+      </div>
+
+      <div className="price">$500</div>
     </section>
   </>
 )
