@@ -28,7 +28,7 @@ const Cortes = () => (
       </div>
       <div className="price">$370</div>
       <div>Rib-eye</div>
-      <div className="price">$610</div>
+      <div className="price">$700</div>
       <div>Rib-steak</div>
       <div className="price">$510</div>
       <div>Cabreria</div>
@@ -334,7 +334,7 @@ const Paquetes = () => (
         </div>
       </div>
 
-      <div className="price">$700</div>
+      <div className="price">$900</div>
       <div>
         <div>Paquete de Rib-eye</div>
         <div className="details">
