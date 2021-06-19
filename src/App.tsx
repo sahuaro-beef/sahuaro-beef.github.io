@@ -399,6 +399,16 @@ const Paquetes = () => (
       </div>
 
       <div className="price">$550</div>
+
+      <div>
+        <div>Paquete de picaña sahuaro</div>
+        <div className="details">
+          Incluye: 1 kg de picaña sahuaro, Guarnición familiar, 1 papa sahuaro, y un chorizo sahuaro
+          o chistorra
+        </div>
+      </div>
+
+      <div className="price">$800</div>
     </section>
   </>
 )
