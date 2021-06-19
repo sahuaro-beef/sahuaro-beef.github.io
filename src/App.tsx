@@ -334,7 +334,7 @@ const Paquetes = () => (
         </div>
       </div>
 
-      <div className="price">$900</div>
+      <div className="price">$800</div>
       <div>
         <div>Paquete de Rib-eye</div>
         <div className="details">
@@ -342,7 +342,7 @@ const Paquetes = () => (
         </div>
       </div>
 
-      <div className="price">$800</div>
+      <div className="price">$900</div>
       <div>
         <div>Paquete de sirloin</div>
         <div className="details">
